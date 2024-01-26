@@ -8,8 +8,8 @@
 
 2. run server on the local
   - command to activate virtual environment and install modules.
-    
-![image](https://github.com/ferfernny/LittleLemon/assets/86872329/b37ffee3-ef5c-4319-af18-a38e0b7db8a9)
+
+![image](https://github.com/ferfernny/LittleLemon/assets/86872329/d198264a-917a-46c5-a614-2f491fc50ed0)
   - command to activate mysql connection, create database, and use database on local.
 
 ![image](https://github.com/ferfernny/LittleLemon/assets/86872329/7fe1fdbb-f35c-4321-8280-f9c94b1e9bfd)
