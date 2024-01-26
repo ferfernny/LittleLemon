@@ -16,7 +16,7 @@ class UserViewSet(ModelViewSet):
     permission_classes = [IsAuthenticated]
     
 class MenuItemView(ListCreateAPIView):
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
 
