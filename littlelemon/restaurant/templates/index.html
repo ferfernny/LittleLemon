@@ -1,11 +1,36 @@
-<!--add this template tag-->
+<!-- add this template tag -->
 {% load static %}
-<img src="{% static 'img/restaurant chef C.jpg' %}">
-<html>
-   <head>
-      <title>Capstone Project</title>
-   </head>
-   <body>
-      <h1 style="text-align:center;">Welcome ToLittleLemon Restaurant</h1>
-   </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Project</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ensure the container takes up the full viewport height */
+            background-color: #f0f0f0
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        img {
+            margin: auto; /* Center the image horizontally */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Welcome To LittleLemon Restaurant</h1>
+    
+    <div class="image-container">
+        <img src="{% static 'img/restaurant chef C.jpg' %}" alt="Restaurant Chef">
+    </div>
+</body>
 </html>
